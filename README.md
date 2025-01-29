@@ -41,5 +41,9 @@
 **Q7- What is a Table ?** <br />
 **A7-** A combination of rows and column to save entities.
 
+**Q7- What is a View ?** <br />
+**A7- View** is a virtual representation of a table with a selected columns.
+
 ## Key words
 - *tuple = use for row*
+- *RDBMS = Relational Database Management System*
