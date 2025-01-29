@@ -44,6 +44,27 @@
 **Q7- What is a View ?** <br />
 **A7- View** is a virtual representation of a table with a selected columns.
 
+**Q8- What is SQL - (Structured Query Language) ?** <br />
+**A8- SQL - (Structured Query Language)** is a Language to communicate with SQL database:
+- use to define database structure (DDL)
+    - to create the table structure
+- use to manipulate the data inside the database (DML)
+    - to perform crud on the database
+    - connection between the database
+
 ## Key words
 - *tuple = use for row*
 - *RDBMS = Relational Database Management System*
+- *DDL = data definition language*
+- *DML = data manipulation language*
+
+## Style Guide
+### SQL
+- `--` this is a single line comment = use for single line comments
+- `/*
+    this is a multi-line
+    comment
+  */` = use for multi line comments
+- normally we use uppercase for build-in keywords, eg: `SELECT`, `UPDATE`, `JOIN`
+- normally we use lowercase for keyword for things we name: `user`, `role`
+- normally we use `kabab case` in naming conventions in sql, eg: `user_role`
