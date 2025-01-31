@@ -52,6 +52,35 @@
     - to perform crud on the database
     - connection between the database
 
+**Q9- What is Data Integrity ?** <br />
+**A9- Data Integrity** is all data is correct, up to date.
+It has 3 types:
+1. Entity Integrity
+    - in simple unique entity
+        - every entity should have a unique identifier (mostly id/uuid)
+2. Referential Integrity
+    - relations/foreign keys are referential integrity
+3. Domain Integrity
+    - data type is domain integrity (int(11)/varchar(255))
+        - few of data types are:
+            - int = integer
+            - char = string
+
+**Q10- What is a good Database Design ?** <br />
+**A10-** A **Database Design** is something which have data integrity, and no repeated data, no stale data.
+In general database design break into 3 sections (schemas):
+1. Conceptual
+    - relation falls here
+2. logical
+    - table structure falls here
+3. Physical
+    - what database/data types/server/other stuffs falls here
+--- 
+We can understand them as conceptual schema is general thinking to physical is specific thinking.
+
+## fun facts
+- *Relational Database come from math relation not the relation between tables*
+
 ## Key words
 - *tuple = use for row*
 - *RDBMS = Relational Database Management System*
