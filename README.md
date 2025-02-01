@@ -54,17 +54,21 @@
 
 **Q9- What is Data Integrity ?** <br />
 **A9- Data Integrity** is all data is correct, up to date.
-It has 3 types:
-1. Entity Integrity
-    - in simple unique entity
-        - every entity should have a unique identifier (mostly id/uuid)
-2. Referential Integrity
-    - relations/foreign keys are referential integrity
-3. Domain Integrity
-    - data type is domain integrity (int(11)/varchar(255))
-        - few of data types are:
-            - int = integer
-            - char = string
+- It has 3 types:
+    1. Entity Integrity
+        - in simple unique entity
+            - every entity should have a unique identifier (mostly id/uuid)
+    2. Referential Integrity
+        - relations/foreign keys are referential integrity
+    3. Domain Integrity
+        - data type is domain integrity (int(11)/varchar(255))
+            - few of data types are:
+                - int = integer
+                - char = string
+                - null = no value
+                    - nullable means this column is optional 
+- Errors in database called anomaly
+    - Anomaly = when database behave in unexpected way
 
 **Q10- What is a good Database Design ?** <br />
 **A10-** A **Database Design** is something which have data integrity, and no repeated data, no stale data.
@@ -83,9 +87,12 @@ We can understand them as conceptual schema is general thinking to physical is s
 
 ## Key words
 - *tuple = use for row*
+- *DBMS = Database Management System*
 - *RDBMS = Relational Database Management System*
 - *DDL = data definition language*
 - *DML = data manipulation language*
+- *Normalization = step to follow in database design*
+- *key = unique identifier*
 
 ## Style Guide
 ### SQL
