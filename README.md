@@ -95,6 +95,7 @@ We can understand them as conceptual schema is general thinking to physical is s
 - *key = unique identifier*
 
 ## Style Guide
+- *save everything in atomic level*
 ### SQL
 - `--` this is a single line comment = use for single line comments
 - `/*
