@@ -82,6 +82,15 @@ In general database design break into 3 sections (schemas):
 --- 
 We can understand them as conceptual schema is general thinking to physical is specific thinking.
 
+**Q11- What is Relationship in a Relational Database ?** <br />
+**A11-** In a **Relational Database** we have multiple types of Relationship.
+1. One-To-One
+2. One-To-Many
+3. Many-To-Many
+- We use Relationship to connect different tables
+    - `User` table with `Order` table to identify which order belong to which user
+
+
 ## fun facts
 - *Relational Database come from math relation not the relation between tables*
 
