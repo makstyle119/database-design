@@ -85,6 +85,9 @@ We can understand them as conceptual schema is general thinking to physical is s
 **Q11- What is Relationship in a Relational Database ?** <br />
 **A11-** In a **Relational Database** we have multiple types of Relationship.
 1. One-To-One
+    - is one entity have one attribute
+        - one driving license number
+    - if anything have one-to-one relation we will add a new column in the same table
 2. One-To-Many
 3. Many-To-Many
 - We use Relationship to connect different tables
