@@ -89,6 +89,10 @@ We can understand them as conceptual schema is general thinking to physical is s
         - one driving license number
     - if anything have one-to-one relation we will add a new column in the same table
 2. One-To-Many
+    - here one entity have many attributes
+        - one person can have multiple comments in a blog
+        - one person can have multiple orders
+    - if anything have one-to-many relation we will add a bridge table
 3. Many-To-Many
 - We use Relationship to connect different tables
     - `User` table with `Order` table to identify which order belong to which user
