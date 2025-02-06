@@ -94,9 +94,10 @@ We can understand them as conceptual schema is general thinking to physical is s
         - one person can have multiple orders
     - if anything have one-to-many relation we will add a bridge table
 3. Many-To-Many
-- We use Relationship to connect different tables
-    - `User` table with `Order` table to identify which order belong to which user
-
+    - here many entity have many attributes
+        - one class can have multiple students
+        - but one student can have multiple classes as well
+    - if anything have many-to-many relation we will add a bridge table
 
 ## fun facts
 - *Relational Database come from math relation not the relation between tables*
