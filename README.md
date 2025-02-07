@@ -86,8 +86,12 @@ We can understand them as conceptual schema is general thinking to physical is s
 **A11-** In a **Relational Database** we have multiple types of Relationship.
 1. One-To-One
     - is one entity have one attribute
-        - one driving license number
+        - one username
     - if anything have one-to-one relation we will add a new column in the same table
+    - but sometime we save one-to-one relation in different tables
+        - one person can have one driving license number
+            - person will save in user table
+            - driving license number will save in driving license table
 2. One-To-Many
     - here one entity have many attributes
         - one person can have multiple comments in a blog
