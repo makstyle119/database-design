@@ -97,11 +97,18 @@ We can understand them as conceptual schema is general thinking to physical is s
         - one person can have multiple comments in a blog
         - one person can have multiple orders
     - if anything have one-to-many relation we will add a bridge table
+    - one-to-many also know as parent-child relation
+        - parent is one entity and have primary key
+        - child can be multiple entities and have foreign key
+    - child have also refer to parent but not vice versa
 3. Many-To-Many
     - here many entity have many attributes
         - one class can have multiple students
         - but one student can have multiple classes as well
     - if anything have many-to-many relation we will add a bridge table
+
+## key Points
+- *One Entity - (table) should only contain relevant data*
 
 ## fun facts
 - *Relational Database come from math relation not the relation between tables*
