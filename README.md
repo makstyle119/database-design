@@ -85,6 +85,7 @@ We can understand them as conceptual schema is general thinking to physical is s
 **Q11- What is Relationship in a Relational Database ?** <br />
 **A11-** In a **Relational Database** we have multiple types of Relationship.
 1. One-To-One
+    - formally written as `1:1`
     - is one entity have one attribute
         - one username
     - if anything have one-to-one relation we will add a new column in the same table
@@ -93,19 +94,22 @@ We can understand them as conceptual schema is general thinking to physical is s
             - person will save in user table
             - driving license number will save in driving license table
 2. One-To-Many
+    - formally written as `1:N`
     - here one entity have many attributes
         - one person can have multiple comments in a blog
         - one person can have multiple orders
-    - if anything have one-to-many relation we will add a bridge table
+    - if anything have one-to-many relation we will add a foreign key in the table
     - one-to-many also know as parent-child relation
         - parent is one entity and have primary key
         - child can be multiple entities and have foreign key
     - child have also refer to parent but not vice versa
 3. Many-To-Many
+    - formally written as `M:N`
     - here many entity have many attributes
         - one class can have multiple students
         - but one student can have multiple classes as well
-    - if anything have many-to-many relation we will add a bridge table
+    - if anything have many-to-many relation we will add a bridge/intermediate table.
+        - this table will have student_id and class_id as well.
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
