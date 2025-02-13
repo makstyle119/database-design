@@ -93,6 +93,7 @@ We can understand them as conceptual schema is general thinking to physical is s
         - one person can have one driving license number
             - person will save in user table
             - driving license number will save in driving license table
+    - usually between one or two tables (binary relation)
 2. One-To-Many
     - formally written as `1:N`
     - here one entity have many attributes
@@ -103,6 +104,7 @@ We can understand them as conceptual schema is general thinking to physical is s
         - parent is one entity and have primary key
         - child can be multiple entities and have foreign key
     - child have also refer to parent but not vice versa
+    - between two tables (binary relation)
 3. Many-To-Many
     - formally written as `M:N`
     - here many entity have many attributes
@@ -110,6 +112,7 @@ We can understand them as conceptual schema is general thinking to physical is s
         - but one student can have multiple classes as well
     - if anything have many-to-many relation we will add a bridge/intermediate table.
         - this table will have student_id and class_id as well.
+    - usually between three or more tables but every two tables will have one-to-many relationship between primary and bridge table (binary relation)
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
