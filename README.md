@@ -114,6 +114,12 @@ We can understand them as conceptual schema is general thinking to physical is s
         - this table will have student_id and class_id as well.
     - usually between three or more tables but every two tables will have one-to-many relationship between primary and bridge table (binary relation)
 
+**Q12- What is Index ?** <br />
+**A12- Index** are same as in books, to find something quickly, it will point you to the data.
+
+**Q13- What is Primary Key ?** <br />
+**A13- Primary Key** is the unique identifier of the entity use to make all foreign relations.
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
