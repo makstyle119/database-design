@@ -120,6 +120,14 @@ We can understand them as conceptual schema is general thinking to physical is s
 **Q13- What is Primary Key ?** <br />
 **A13- Primary Key** is the unique identifier of the entity use to make all foreign relations.
 
+**Q14- What is Look-Up Table ?** <br />
+**A14- Look-Up Table** is a simple table consistence of **List Of Values**. <br />
+- Relation
+    - Look-Up tables work with One-To-Many relationship
+- Example:
+    - Status
+    - Gender
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
