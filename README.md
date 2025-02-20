@@ -116,6 +116,8 @@ We can understand them as conceptual schema is general thinking to physical is s
 
 **Q12- What is Index ?** <br />
 **A12- Index** are same as in books, to find something quickly, it will point you to the data.
+- **Unique Index**
+    - this index will make sure that all values are unique
 
 **Q13- What is Primary Key ?** <br />
 **A13- Primary Key** is the unique identifier of the entity use to make all foreign relations.
@@ -127,6 +129,15 @@ We can understand them as conceptual schema is general thinking to physical is s
 - Example:
     - Status
     - Gender
+
+**Q15- What are Keys ?** <br />
+**A15- Keys** are unique, Never Change and Never Null.
+- **SuperKey** is any number of columns that forces every row to be unique
+    - **Requirement**
+        - Can every row be unique
+        - How any column are needed
+    - **Note:** SuperKey are only for designing the database and not practical
+- **Candidate Key** is minimum number of columns that forces every row to be unique
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
