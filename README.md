@@ -131,13 +131,16 @@ We can understand them as conceptual schema is general thinking to physical is s
     - Gender
 
 **Q15- What are Keys ?** <br />
-**A15- Keys** are unique, Never Change and Never Null.
+**A15- Keys** are unique, Never Change and Never Null. (Recommended to index most of your keys)
 - **SuperKey** is any number of columns that forces every row to be unique
     - **Requirement**
         - Can every row be unique
         - How any column are needed
     - **Note:** SuperKey are only for designing the database and not practical
 - **Candidate Key** is minimum number of columns that forces every row to be unique
+- **Primary Key** is the candidate key which we will use to make foreign relations
+    - mostly a id column
+- **Alternate Key** is all other candidate keys except the primary key
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
