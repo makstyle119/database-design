@@ -141,6 +141,11 @@ We can understand them as conceptual schema is general thinking to physical is s
 - **Primary Key** is the candidate key which we will use to make foreign relations
     - mostly a id column
 - **Alternate Key** is all other candidate keys except the primary key
+- **Natural Key** is a candidate key which is already present in the database and a real world value.
+    - username
+    - email
+- **Surrogate Key** is a key that is not present in the real world.
+    - mostly a id column
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
