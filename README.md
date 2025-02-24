@@ -146,6 +146,7 @@ We can understand them as conceptual schema is general thinking to physical is s
     - email
 - **Surrogate Key** is a key that is not present in the real world.
     - mostly a id column
+- **Foreign Key** is primary key use in another table to make foreign relations
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
