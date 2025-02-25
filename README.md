@@ -132,6 +132,9 @@ We can understand them as conceptual schema is general thinking to physical is s
 
 **Q15- What are Keys ?** <br />
 **A15- Keys** are unique, Never Change and Never Null. (Recommended to index most of your keys)
+- **characteristics**
+    - **Not Null** is a column that cannot have null value
+    - **Unique** is a column that cannot have duplicate value
 - **SuperKey** is any number of columns that forces every row to be unique
     - **Requirement**
         - Can every row be unique
@@ -146,7 +149,7 @@ We can understand them as conceptual schema is general thinking to physical is s
     - email
 - **Surrogate Key** is a key that is not present in the real world.
     - mostly a id column
-- **Foreign Key** is primary key use in another table to make foreign relations
+- **Foreign Key** is primary key use in another table to make foreign relations, nullable, can be repeated (because of binary relation) and changeable
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
