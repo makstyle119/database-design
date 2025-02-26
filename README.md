@@ -149,7 +149,10 @@ We can understand them as conceptual schema is general thinking to physical is s
     - email
 - **Surrogate Key** is a key that is not present in the real world.
     - mostly a id column
-- **Foreign Key** is primary key use in another table to make foreign relations, nullable, can be repeated (because of binary relation) and changeable
+- **Foreign Key** is primary key use in another table to make foreign relations, nullable, can be repeated (because of binary relation) and changeable.
+- **Simple Key** is refer as single attribute with in a table to make each row unique.
+- **Composite Key** is refer as a combination of more than one attribute with in a table to make each row unique.
+- **Compound Key** is a key with multiple column and every column is a key.
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
