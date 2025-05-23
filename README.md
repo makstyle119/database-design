@@ -169,6 +169,9 @@ We can understand them as conceptual schema is general thinking to physical is s
 - *DML = data manipulation language*
 - *Normalization = step to follow in database design*
 - *key = unique identifier*
+- *EER Model = Enhanced Entity-Relationship Model*
+- *ERD = Entity Relationship Diagram*
+- *ER Model = Entity-Relationship model. *
 
 ## Style Guide
 - *save everything in atomic level*
