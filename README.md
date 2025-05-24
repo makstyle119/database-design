@@ -172,6 +172,7 @@ We can understand them as conceptual schema is general thinking to physical is s
 - *EER Model = Enhanced Entity-Relationship Model*
 - *ERD = Entity Relationship Diagram*
 - *ER Model = Entity-Relationship model. *
+- *Cardinality = is basically the relationship between the row of one table and the row of another table. *
 
 ## Style Guide
 - *save everything in atomic level*
