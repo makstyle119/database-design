@@ -155,6 +155,13 @@ We can understand them as conceptual schema is general thinking to physical is s
 - **Composite Key** is refer as a combination of more than one attribute with in a table to make each row unique.
 - **Compound Key** is a key with multiple column and every column is a key.
 
+**Q16- What are Data Normalization ?** <br />
+**A16- Data Normalization** is a way to design the database to make it easy to use and maintain. <br />
+There are three types of normalization:
+1. First Normal Form (1NF)
+2. Second Normal Form (2NF)
+3. Third Normal Form (3NF)
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
