@@ -159,6 +159,7 @@ We can understand them as conceptual schema is general thinking to physical is s
 **A16- Data Normalization** is a way to design the database to make it easy to use and maintain. <br />
 There are three types of normalization:
 1. First Normal Form (1NF)
+    - each column should only contain one value (atomicity)
 2. Second Normal Form (2NF)
 3. Third Normal Form (3NF)
 
