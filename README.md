@@ -161,6 +161,7 @@ There are three types of normalization:
 1. First Normal Form (1NF)
     - each column should only contain one value (atomicity)
 2. Second Normal Form (2NF)
+    - each row only dependent on primary key
 3. Third Normal Form (3NF)
 
 ## key Points
