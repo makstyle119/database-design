@@ -117,7 +117,18 @@ We can understand them as conceptual schema is general thinking to physical is s
 **Q12- What is Index ?** <br />
 **A12- Index** are same as in books, to find something quickly, it will point you to the data.
 - **Unique Index**
-    - this index will make sure that all values are unique
+    - this index will make sure that all values are unique. <br />
+There are three types of index:
+1. Clustered Index
+    - Here data is saved in organized way.
+    - You can only have one Clustered Index. Because Data can be only organized in one way.
+    - Primary key is the example of Clustered Index.
+2. Nonclustered Index
+    - Here data save separate from indexes.
+    - **In other words:** indexes save with the pointer of data.
+    - We can have multiple Nonclustered Indexes.
+3. Composite Index
+    - If a index is only two or more columns it's called Composite Index.
 
 **Q13- What is Primary Key ?** <br />
 **A13- Primary Key** is the unique identifier of the entity use to make all foreign relations.
