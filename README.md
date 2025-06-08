@@ -176,6 +176,25 @@ There are three types of normalization:
 3. Third Normal Form (3NF)
     - should have 1NF, 2NF and each row only dependent on primary key
 
+**Q17- Data Types ?** <br />
+**A17-** SQL have following data types:
+1. Numeric
+    - int = integer
+    - float = decimal
+    - double = double precision
+2. Character
+    - char = string
+    - varchar = string
+    - text = string
+3. Date and Time
+    - date = date
+    - time = time
+    - datetime = datetime
+4. Boolean
+    - boolean = boolean
+5. Binary
+    - binary = binary
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
