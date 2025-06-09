@@ -195,6 +195,11 @@ There are three types of normalization:
 5. Binary
     - binary = binary
 
+**Q18- What is a JOIN ?** <br />
+**A18- JOIN** is to connect two tables through foreign key and primary key.
+- The table with primary key is called parent table
+- The table with foreign key is called child table
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
