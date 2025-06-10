@@ -199,6 +199,9 @@ There are three types of normalization:
 **A18- JOIN** is to connect two tables through foreign key and primary key.
 - The table with primary key is called parent table
 - The table with foreign key is called child table
+1. **Inner Join**
+    - Is the default join
+    - It will only return rows that have matching values in both tables
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
