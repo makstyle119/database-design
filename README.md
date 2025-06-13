@@ -202,6 +202,16 @@ There are three types of normalization:
 1. **Inner Join**
     - Is the default join
     - It will only return rows that have matching values in both tables
+2. **Outer Join**
+    - there are 4 types of outer join
+        1. Left Join
+            - Return all rows from the left table and the matched rows from the right table
+        2. Right Join
+            - Return all rows from the right table and the matched rows from the left table
+        3. Full Join
+            - Return all rows from both tables
+        4. Cross Join
+            - Return all possible combinations of rows from both tables
 
 ## key Points
 - *One Entity - (table) should only contain relevant data*
