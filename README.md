@@ -213,6 +213,20 @@ There are three types of normalization:
         4. Cross Join
             - Return all possible combinations of rows from both tables
 
+**Q18- What is a Alias ?** <br />
+**A18- Alias** is like a nickname or short name for the table of column.
+```
+SELECT
+    u.name AS user_name.
+    r.name AS role_name
+FROM
+    users AS u
+LEFT JOIN
+    roles AS r
+ON 
+    u.role_id = r.id
+```
+
 ## key Points
 - *One Entity - (table) should only contain relevant data*
 
