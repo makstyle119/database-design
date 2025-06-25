@@ -257,3 +257,7 @@ ON
 - normally we use uppercase for build-in keywords, eg: `SELECT`, `UPDATE`, `JOIN`
 - normally we use lowercase for keyword for things we name: `user`, `role`
 - normally we use `kabab case` in naming conventions in sql, eg: `user_role`
+
+## Resources
+I start my journey using this cool stuff so shout to them:
+- <a href="https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID" target="_blank">Database Design by Caleb Curry</a> from **Q1** to **Q18**
